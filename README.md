@@ -1,10 +1,10 @@
 # webpack-exclude-entry
 Excludes files from output
 
-###install
+### install
 `npm i -D webpack-exclude-entry`
 
-###Use
+### Use
 	const ExcludeEntry = require('webpack-exclude-entry');
 	const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
@@ -29,6 +29,6 @@ Excludes files from output
 		};
 	};
 	
-###Result
-`./dist/css/style.min.css`
-`./dist/js/build.min.js`
+### Output result
+	./dist/css/style.min.css
+	./dist/js/build.min.js
