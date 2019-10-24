@@ -1,0 +1,24 @@
+{
+  "name": "webpack-exclude-entry",
+  "version": "1.0.0",
+  "description": "Excludes files from output",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mupic/webpack-exclude-entry.git"
+  },
+  "keywords": [
+    "webpack",
+    "without",
+    "scripts"
+  ],
+  "author": "Daniil Lopatin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mupic/webpack-exclude-entry/issues"
+  },
+  "homepage": "https://github.com/mupic/webpack-exclude-entry#readme"
+}

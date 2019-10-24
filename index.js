@@ -1,23 +1,23 @@
-class WebpackExcludeEntry {
-	constructor(patterns) {
+class WebpackExcludeEntry{
+	constructor(patterns){
 		this.patterns = patterns;
 	}
 
-	apply(compiler) {
+	apply(compiler){
 		compiler.hooks.emit.tapAsync("WebpackExcludeEntry", (compilation, callback) => {
 			Object.keys(compilation.assets)
 				.filter(asset => {
 					let match = false,
 						i = this.patterns.length;
-					while (i--) {
-						if (this.patterns[i].test(asset)) {
+					while(i--){
+						if(this.patterns[i].test(asset)){
 							match = true;
 						}
 					}
 					return match;
 				}).forEach(asset => {
-					delete compilation.assets[asset];
-				});
+				delete compilation.assets[asset];
+			});
 
 			callback();
 		});
