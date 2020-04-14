@@ -24,7 +24,7 @@ Excludes files from output
 			},
 			plugins: [
 				extractSass,
-				new ExcludeEntry([/style.min\.js/]), //do not save files
+				new ExcludeEntry([/style\.min\.js/]), //do not save files
 			],
 		};
 	};

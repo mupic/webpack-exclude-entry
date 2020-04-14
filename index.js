@@ -24,4 +24,4 @@ class WebpackExcludeEntry{
 	}
 }
 
-module.exports = Without;
+module.exports = WebpackExcludeEntry;
