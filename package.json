@@ -1,6 +1,6 @@
 {
   "name": "webpack-exclude-entry",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Excludes files from output",
   "main": "index.js",
   "scripts": {
